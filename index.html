@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Front End Exercise</title>
+</head>
+
+<body>
+    <main>
+        <div class="imgContainer">
+            <img class="mainImg" id="mainImg" src="Images/white bowl.jpg" alt="bowl">
+            <i class="fa-regular fa-heart emptyHeart"></i>
+            <i class="fa-solid fa-heart fullHeart"></i>
+            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+        </div>
+        <div class="bigContainer">
+            <div class="smallDetails">
+                <h6 class="sd sale">BUY 300 PAY 200</h6>
+                <h5 class="sd nameProd">קערת אקריל עגולה</h5>
+                <h6 class="sd price">79.90 ₪</h6>
+            </div>
+            <div class="options">
+                <h6 class="tOptions">פריט:</h6>
+                <div class="typeOfItem">קערה</div>
+                <h6 class="tOptions">צבע: <span id="colorText">לבן</span></h6>
+                <div class="colorsSection">
+                    <img class="colorBox" id="colorBox1" src="Images/white bowl sm.jpeg"></img>
+                    <img class="colorBox" id="colorBox2" src="Images/black bowl sm.jpeg"></img>
+                    <img class="colorBox" id="colorBox3" src="Images/yellow bowl sm.jpeg"></img>
+                </div>
+                <h6 class="tOptions">כמות:</h6>
+                <select name="quantity" id="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <button class="addToCart">הוספה לסל</button>
+            </div>
+            <div class="dreamCard">
+                <h3>חברי מועדון DREAM CARD</h3>
+                <h6>בקנייה זו ניתן לצבור כ-8 נקודות</h6>
+                <a href="#">התחברו</a>
+            </div>
+            <div class="dreamCardVIP">
+                <h3>DREAMCARD<span class="dcVIP">VIP</span><i class="fa-solid fa-star"></i></h3>
+                <h6>בקנייה זו ניתן לצבור כ-10 נקודות</h6>
+                <a href="#">התחברו</a>
+            </div>
+            <div class="freeDelivery">
+                <h3><i class="fa-solid fa-cart-shopping"></i> Free Delivery</h3>
+                <h6>שליח עד הבית חינם בקנייה מעל 199 ₪</h6>
+            </div>
+
+            <div class="wrapper">
+                <div class="container">
+                    <hr class="line">
+                    <span class="plusSymbol plusSymbol1">&#43;</span>
+                    <div class="mainInfo detailsPro">
+                        מידע על המוצר
+                    </div>
+                    <div class="panel panel1">
+                        <div class="openPanel1 detailsProA">
+                            קערת הגשה עמוקה העשויה מלמין עמיד, בעיצוב מינימליסטי ובמראה א-סימטרי, עם דוגמת נקודות
+                            מעודנת. הקערה במידות 25X11.5
+                            ומתאימה להגשה ואירוח.
+                            להשלמת המראה, חפשו את סדרת הכלים המלאה.
+                            <br><br>
+                            מק״ט: 018859680099
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <hr class="line">
+                    <span class="plusSymbol plusSymbol2">&#43;</span>
+                    <div class="mainInfo moreDetails">
+                        נתונים נוספים
+                    </div>
+                    <div class="panel panel2">
+                        <div class="openPanel1 moreDetailsA">
+                            חומר: מלמין
+                            גובה: 11.5 ס״מ
+                            קוטר: 25 ס״מ
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <hr class="line">
+                    <span class="plusSymbol plusSymbol3">&#43;</span>
+                    <div class="mainInfo instructions">
+                        הוראות טיפול
+                    </div>
+                    <div class="panel panel3">
+                        <div class="openPanel1 instructionsA">
+                            מתאים לשימוש במדיח כלים לא לשימוש במיקרוגל
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/ad7520866f.js" crossorigin="anonymous"></script>
+    <script src="javaScript.js"></script>
+</body>
+
+</html>
